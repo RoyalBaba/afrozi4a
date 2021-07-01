@@ -16,7 +16,7 @@
 from aiogram import types
 from aiogram.dispatcher.filters import BoundFilter
 
-from DaisyX import dp
+from Afrozi import dp
 
 
 class OnlyPM(BoundFilter):

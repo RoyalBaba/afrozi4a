@@ -1,6 +1,6 @@
 # Copyright (C) 2020 DevsExpo
 # Copyright (C) 2021 Inuka Asith
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamAfrozi
 
 # This file is part of Daisy (Telegram Bot)
 
@@ -25,7 +25,7 @@ import requests
 from bs4 import BeautifulSoup
 from telethon import events
 
-from DaisyX.services.telethon import tbot
+from Afrozi.services.telethon import tbot
 
 
 @tbot.on(events.NewMessage(pattern="^/book (.*)"))
@@ -65,7 +65,7 @@ async def _(event):
                 f.write("\n" + title)
                 f.write("\nBook link:- " + link + "\n\n")
 
-        f.write("By @DaisyXBot.")
+        f.write("By @AfroziBot.")
         f.close()
         caption = "A collabration with Friday.\n Join Support @DaisySupport_Official"
 

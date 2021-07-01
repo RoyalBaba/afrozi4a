@@ -1,4 +1,4 @@
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamAfrozi
 
 
 # This file is part of Daisy (Telegram Bot)
@@ -24,10 +24,10 @@ from PIL import Image
 from telegraph import Telegraph, exceptions, upload_file
 from telethon import events
 
-from DaisyX.services.telethon import tbot as borg
+from Afrozi.services.telethon import tbot as borg
 
 telegraph = Telegraph()
-r = telegraph.create_account(short_name="DaisyX")
+r = telegraph.create_account(short_name="Afrozi")
 auth_url = r["auth_url"]
 
 # Will change later

@@ -1,5 +1,5 @@
 # Copyright (C) 2018 - 2020 MrYacha. All rights reserved. Source code available under the AGPL.
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamAfrozi
 # Copyright (C) 2020 Inuka Asith
 
 # This file is part of Daisy (Telegram Bot)
@@ -25,12 +25,12 @@ import sys
 import rapidjson
 import requests
 
-from DaisyX import DAISY_VERSION, OWNER_ID, bot, dp
-from DaisyX.decorator import COMMANDS_ALIASES, REGISTRED_COMMANDS, register
-from DaisyX.modules import LOADED_MODULES
-from DaisyX.services.mongo import db, mongodb
-from DaisyX.services.redis import redis
-from DaisyX.services.telethon import tbot
+from Afrozi import DAISY_VERSION, OWNER_ID, bot, dp
+from Afrozi.decorator import COMMANDS_ALIASES, REGISTRED_COMMANDS, register
+from Afrozi.modules import LOADED_MODULES
+from Afrozi.services.mongo import db, mongodb
+from Afrozi.services.redis import redis
+from Afrozi.services.telethon import tbot
 
 from .utils.covert import convert_size
 from .utils.language import get_strings_dec
@@ -167,7 +167,7 @@ async def bot_stop(message):
 @register(cmds="restart", is_owner=True)
 async def restart_bot(message):
     await message.reply("Daisy will be restarted...")
-    args = [sys.executable, "-m", "DaisyX"]
+    args = [sys.executable, "-m", "Afrozi"]
     os.execl(sys.executable, *args)
 
 
@@ -185,7 +185,7 @@ async def upgrade(message):
             await m.edit_text("There's nothing to upgrade.")
         else:
             await m.edit_text("Restarting...")
-            args = [sys.executable, "-m", "DaisyX"]
+            args = [sys.executable, "-m", "Afrozi"]
             os.execl(sys.executable, *args)
     else:
         await m.edit_text(

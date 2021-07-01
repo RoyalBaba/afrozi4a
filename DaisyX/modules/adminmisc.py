@@ -1,4 +1,4 @@
-# Copyright (C) 2021 AlainX &TeamDaisyX
+# Copyright (C) 2021 AlainX &TeamAfrozi
 
 # This file is part of Daisy (Telegram Bot)
 
@@ -32,8 +32,8 @@ from telethon.tl.types import (
     MessageEntityMentionName,
 )
 
-from DaisyX import OWNER_ID
-from DaisyX.services.telethon import tbot as bot
+from Afrozi import OWNER_ID
+from Afrozi.services.telethon import tbot as bot
 
 # =================== CONSTANT ===================
 PP_TOO_SMOL = "**The image is too small**"

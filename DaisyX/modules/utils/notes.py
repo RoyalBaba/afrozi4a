@@ -35,9 +35,9 @@ from telethon.errors import (
 from telethon.errors.rpcerrorlist import ChatWriteForbiddenError
 from telethon.tl.custom import Button
 
-import DaisyX.modules.utils.tmarkdown as tmarkdown
-from DaisyX import BOT_USERNAME
-from DaisyX.services.telethon import tbot
+import Afrozi.modules.utils.tmarkdown as tmarkdown
+from Afrozi import BOT_USERNAME
+from Afrozi.services.telethon import tbot
 
 from ...utils.logger import log
 from .language import get_chat_lang

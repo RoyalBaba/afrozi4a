@@ -6,7 +6,7 @@
 from gogoanimeapi import gogoanime as anime
 from telethon import Button, events
 
-from DaisyX.services.telethon import tbot as GogoAnime
+from Afrozi.services.telethon import tbot as GogoAnime
 
 
 @GogoAnime.on(events.NewMessage(pattern="^/gogo ?(.*)"))

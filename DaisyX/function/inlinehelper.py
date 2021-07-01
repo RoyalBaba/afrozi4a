@@ -19,11 +19,11 @@ from pyrogram.types import (
 from Python_ARQ import ARQ
 from search_engine_parser import GoogleSearch
 
-from DaisyX import BOT_USERNAME, OWNER_ID
-from DaisyX.config import get_str_key
-from DaisyX.function.pluginhelpers import convert_seconds_to_minutes as time_convert
-from DaisyX.function.pluginhelpers import fetch
-from DaisyX.services.pyrogram import pbot
+from Afrozi import BOT_USERNAME, OWNER_ID
+from Afrozi.config import get_str_key
+from Afrozi.function.pluginhelpers import convert_seconds_to_minutes as time_convert
+from Afrozi.function.pluginhelpers import fetch
+from Afrozi.services.pyrogram import pbot
 
 ARQ_API = get_str_key("ARQ_API", required=True)
 ARQ_API_KEY = ARQ_API
@@ -88,7 +88,7 @@ async def alive_function(answers):
     )
 
     msg = f"""
-**[DaisyX✨](https://github.com/TeamDaisyX):**
+**[Afrozi✨](https://github.com/TeamAfrozi):**
 **MainBot:** `{bot_state}`
 **UserBot:** `Alive`
 **Python:** `3.9`

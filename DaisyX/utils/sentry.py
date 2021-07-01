@@ -16,8 +16,8 @@
 import sentry_sdk
 from sentry_sdk.integrations.redis import RedisIntegration
 
-from DaisyX.config import get_str_key
-from DaisyX.utils.logger import log
+from Afrozi.config import get_str_key
+from Afrozi.utils.logger import log
 
 log.info("Starting sentry.io integraion...")
 

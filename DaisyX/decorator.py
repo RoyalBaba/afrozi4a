@@ -20,11 +20,11 @@ from aiogram import types
 from aiogram.dispatcher.handler import SkipHandler
 from sentry_sdk import configure_scope
 
-from DaisyX import BOT_USERNAME, dp
-from DaisyX.config import get_bool_key
-from DaisyX.modules.error import parse_update
-from DaisyX.utils.filters import ALL_FILTERS
-from DaisyX.utils.logger import log
+from Afrozi import BOT_USERNAME, dp
+from Afrozi.config import get_bool_key
+from Afrozi.modules.error import parse_update
+from Afrozi.utils.filters import ALL_FILTERS
+from Afrozi.utils.logger import log
 
 DEBUG_MODE = get_bool_key("DEBUG_MODE")
 ALLOW_F_COMMANDS = get_bool_key("ALLOW_FORWARDS_COMMANDS")
@@ -38,7 +38,7 @@ COMMANDS_ALIASES = {}
 log.info("Filters to load: %s", str(ALL_FILTERS))
 for module_name in ALL_FILTERS:
     log.debug("Importing " + module_name)
-    imported_module = import_module("DaisyX.utils.filters." + module_name)
+    imported_module = import_module("Afrozi.utils.filters." + module_name)
 log.info("Filters loaded!")
 
 

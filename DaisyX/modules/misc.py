@@ -1,5 +1,5 @@
 # Copyright (C) 2018 - 2020 MrYacha. All rights reserved. Source code available under the AGPL.
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamAfrozi
 # Copyright (C) 2020 Inuka Asith
 
 # This file is part of Daisy (Telegram Bot)
@@ -33,7 +33,7 @@ from aiogram.utils.exceptions import (
     MessageToDeleteNotFound,
 )
 
-from DaisyX.decorator import register
+from Afrozi.decorator import register
 
 from .utils.disable import disableable_dec
 from .utils.httpx import http

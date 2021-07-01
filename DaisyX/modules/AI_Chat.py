@@ -1,4 +1,4 @@
-# Copyright (C) 2021 Red-Aura & TeamDaisyX & HamkerCat
+# Copyright (C) 2021 Red-Aura & TeamAfrozi & HamkerCat
 
 # This file is part of Daisy (Telegram Bot)
 
@@ -27,11 +27,11 @@ import aiohttp
 from google_trans_new import google_translator
 from pyrogram import filters
 
-from DaisyX import BOT_ID
-from DaisyX.db.mongo_helpers.aichat import add_chat, get_session, remove_chat
-from DaisyX.function.inlinehelper import arq
-from DaisyX.function.pluginhelpers import admins_only, edit_or_reply
-from DaisyX.services.pyrogram import pbot as daisyx
+from Afrozi import BOT_ID
+from Afrozi.db.mongo_helpers.aichat import add_chat, get_session, remove_chat
+from Afrozi.function.inlinehelper import arq
+from Afrozi.function.pluginhelpers import admins_only, edit_or_reply
+from Afrozi.services.pyrogram import pbot as daisyx
 
 translator = google_translator()
 
@@ -311,7 +311,7 @@ async def inuka(client, message):
 
 
 @daisyx.on_message(
-    filters.regex("Daisy|daisy|DaisyX|daisyx|Daisyx")
+    filters.regex("Daisy|daisy|Afrozi|daisyx|Daisyx")
     & ~filters.bot
     & ~filters.via_bot
     & ~filters.forwarded

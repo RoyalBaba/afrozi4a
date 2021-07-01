@@ -4,9 +4,9 @@ from pyrogram import filters
 from pyrogram.errors import ChatAdminRequired, RightForbidden, RPCError
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from DaisyX.function.pluginhelpers import member_permissions
-from DaisyX.services.mongo import mongodb as db
-from DaisyX.services.pyrogram import pbot as app
+from Afrozi.function.pluginhelpers import member_permissions
+from Afrozi.services.mongo import mongodb as db
+from Afrozi.services.pyrogram import pbot as app
 
 BTN_URL_REGEX = compile_re(r"(\[([^\[]+?)\]\(buttonurl:(?:/{0,2})(.+?)(:same)?\))")
 

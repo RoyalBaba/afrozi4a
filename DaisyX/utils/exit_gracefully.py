@@ -16,8 +16,8 @@
 import os
 import signal
 
-from DaisyX.services.redis import redis
-from DaisyX.utils.logger import log
+from Afrozi.services.redis import redis
+from Afrozi.utils.logger import log
 
 
 def exit_gracefully(signum, frame):

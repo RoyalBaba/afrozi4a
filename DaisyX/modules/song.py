@@ -32,9 +32,9 @@ from pyrogram.types import Message
 from youtube_dl import YoutubeDL
 from youtubesearchpython import SearchVideos
 
-from DaisyX.function.inlinehelper import arq
-from DaisyX.function.pluginhelpers import get_text, progress
-from DaisyX.services.pyrogram import pbot as Client
+from Afrozi.function.inlinehelper import arq
+from Afrozi.function.pluginhelpers import get_text, progress
+from Afrozi.services.pyrogram import pbot as Client
 
 dl_limit = 0
 

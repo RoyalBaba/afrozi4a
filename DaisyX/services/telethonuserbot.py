@@ -1,4 +1,4 @@
-# This file is part of DaisyXBot (Telegram Bot)
+# This file is part of AfroziBot (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -18,7 +18,7 @@ import sys
 from telethon import TelegramClient
 from telethon.sessions import StringSession
 
-from DaisyX.config import get_int_key, get_str_key
+from Afrozi.config import get_int_key, get_str_key
 
 STRING_SESSION = get_str_key("STRING_SESSION", required=True)
 API_ID = get_int_key("APP_ID", required=True)

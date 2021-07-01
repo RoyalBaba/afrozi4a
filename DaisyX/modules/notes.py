@@ -1,5 +1,5 @@
 # Copyright (C) 2018 - 2020 MrYacha. All rights reserved. Source code available under the AGPL.
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamAfrozi
 # Copyright (C) 2020 Inuka Asith
 
 # This file is part of Daisy (Telegram Bot)
@@ -34,11 +34,11 @@ from babel.dates import format_datetime
 from pymongo import ReplaceOne
 from telethon.errors.rpcerrorlist import MessageDeleteForbiddenError
 
-from DaisyX import bot
-from DaisyX.decorator import register
-from DaisyX.services.mongo import db
-from DaisyX.services.redis import redis
-from DaisyX.services.telethon import tbot
+from Afrozi import bot
+from Afrozi.decorator import register
+from Afrozi.services.mongo import db
+from Afrozi.services.redis import redis
+from Afrozi.services.telethon import tbot
 
 from .utils.connections import chat_connection, set_connected_command
 from .utils.disable import disableable_dec

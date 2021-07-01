@@ -15,9 +15,9 @@
 
 import html
 
-from DaisyX import bot
-from DaisyX.config import get_int_key
-from DaisyX.utils.logger import log
+from Afrozi import bot
+from Afrozi.config import get_int_key
+from Afrozi.utils.logger import log
 
 
 async def channel_log(msg, info_log=True):

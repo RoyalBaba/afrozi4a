@@ -1,5 +1,5 @@
 # Copyright (C) 2018 - 2020 MrYacha. All rights reserved. Source code available under the AGPL.
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamAfrozi
 # Copyright (C) 2020 Inuka Asith
 
 # This file is part of Daisy (Telegram Bot)
@@ -23,8 +23,8 @@ from aiogram.types.inline_keyboard import InlineKeyboardButton, InlineKeyboardMa
 from aiogram.utils.callback_data import CallbackData
 from aiogram.utils.exceptions import MessageNotModified
 
-from DaisyX.decorator import register
-from DaisyX.services.mongo import db
+from Afrozi.decorator import register
+from Afrozi.services.mongo import db
 
 from .utils.language import (
     LANGUAGES,
@@ -167,7 +167,7 @@ async def __import__(chat_id, data):
 __mod_name__ = "Languages"
 
 __help__ = """
-This module is dedicated towards utlising Daisy's localization feature! You can also <a href='https://crowdin.com/project/DaisyXx'>contribute</a> for improving localization in Daisy!
+This module is dedicated towards utlising Daisy's localization feature! You can also <a href='https://crowdin.com/project/Afrozix'>contribute</a> for improving localization in Daisy!
 
 <b>Available commands:</b>
 - /lang: Shows a list of avaible languages

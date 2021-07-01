@@ -1,5 +1,5 @@
 # Copyright (C) 2018 - 2020 MrYacha. All rights reserved. Source code available under the AGPL.
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamAfrozi
 # Copyright (C) 2020 Inuka Asith
 
 # This file is part of Daisy (Telegram Bot)
@@ -21,9 +21,9 @@ import asyncio
 
 from telethon.errors.rpcerrorlist import MessageDeleteForbiddenError
 
-from DaisyX import bot
-from DaisyX.decorator import register
-from DaisyX.services.telethon import tbot
+from Afrozi import bot
+from Afrozi.decorator import register
+from Afrozi.services.telethon import tbot
 
 from .utils.language import get_strings_dec
 from .utils.notes import BUTTONS

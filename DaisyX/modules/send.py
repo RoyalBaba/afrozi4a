@@ -1,4 +1,4 @@
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamAfrozi
 
 
 # This file is part of Daisy (Telegram Bot)
@@ -18,8 +18,8 @@
 
 from pyrogram import filters
 
-from DaisyX.function.pluginhelpers import admins_only, get_text
-from DaisyX.services.pyrogram import pbot
+from Afrozi.function.pluginhelpers import admins_only, get_text
+from Afrozi.services.pyrogram import pbot
 
 
 @pbot.on_message(

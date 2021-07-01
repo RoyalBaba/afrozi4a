@@ -1,4 +1,4 @@
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamAfrozi
 
 
 # This file is part of Daisy (Telegram Bot)
@@ -25,9 +25,9 @@ import requests
 from telethon import types
 from telethon.tl import functions
 
-from DaisyX.config import get_str_key
-from DaisyX.services.events import register
-from DaisyX.services.telethon import tbot
+from Afrozi.config import get_str_key
+from Afrozi.services.events import register
+from Afrozi.services.telethon import tbot
 
 REM_BG_API_KEY = get_str_key("REM_BG_API_KEY", required=False)
 TEMP_DOWNLOAD_DIRECTORY = "./"

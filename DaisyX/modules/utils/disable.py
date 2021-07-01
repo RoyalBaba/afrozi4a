@@ -15,9 +15,9 @@
 
 from contextlib import suppress
 
-from DaisyX.modules.utils.user_details import is_user_admin
-from DaisyX.services.mongo import db
-from DaisyX.utils.logger import log
+from Afrozi.modules.utils.user_details import is_user_admin
+from Afrozi.services.mongo import db
+from Afrozi.utils.logger import log
 
 DISABLABLE_COMMANDS = []
 

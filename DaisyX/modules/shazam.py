@@ -6,8 +6,8 @@ import requests
 # import ffmpeg
 from pyrogram import filters
 
-from DaisyX.function.pluginhelpers import admins_only, edit_or_reply, fetch_audio
-from DaisyX.services.pyrogram import pbot
+from Afrozi.function.pluginhelpers import admins_only, edit_or_reply, fetch_audio
+from Afrozi.services.pyrogram import pbot
 
 
 @pbot.on_message(filters.command(["identify", "shazam"]))
@@ -46,7 +46,7 @@ async def shazamm(client, message):
     messageo = f"""<b>Song Shazamed.</b>
 <b>Song Name : </b>{title}
 <b>Song By : </b>{by}
-<u><b>Identified Using @DaisyXBot - Join our support @DaisySupport_Official</b></u>
+<u><b>Identified Using @AfroziBot - Join our support @DaisySupport_Official</b></u>
 <i>Powered by @FridayOT</i>
 """
     await client.send_photo(message.chat.id, image, messageo, parse_mode="HTML")

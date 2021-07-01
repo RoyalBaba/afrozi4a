@@ -15,8 +15,8 @@
 
 from aiogram.utils.exceptions import BadRequest
 
-from DaisyX import bot
-from DaisyX.decorator import register
+from Afrozi import bot
+from Afrozi.decorator import register
 
 from .utils.connections import chat_connection
 from .utils.language import get_strings_dec

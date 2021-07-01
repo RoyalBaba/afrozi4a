@@ -16,11 +16,11 @@
 from aiogram import types
 from aiogram.dispatcher.filters import BoundFilter
 
-from DaisyX import OPERATORS, dp
-from DaisyX.config import get_int_key
-from DaisyX.modules.utils.language import get_strings_dec
-from DaisyX.modules.utils.user_details import is_user_admin
-from DaisyX.services.mongo import mongodb
+from Afrozi import OPERATORS, dp
+from Afrozi.config import get_int_key
+from Afrozi.modules.utils.language import get_strings_dec
+from Afrozi.modules.utils.user_details import is_user_admin
+from Afrozi.services.mongo import mongodb
 
 
 class IsAdmin(BoundFilter):

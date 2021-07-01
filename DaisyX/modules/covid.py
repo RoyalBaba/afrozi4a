@@ -1,5 +1,5 @@
 # Copyright (C) 2021 TheHamkerCat
-# Edited by TeamDaisyX
+# Edited by TeamAfrozi
 
 # This file is part of Daisy (Telegram Bot)
 
@@ -18,8 +18,8 @@
 
 from pyrogram import filters
 
-from DaisyX.function.pluginhelpers import fetch, json_prettify
-from DaisyX.services.pyrogram import pbot as app
+from Afrozi.function.pluginhelpers import fetch, json_prettify
+from Afrozi.services.pyrogram import pbot as app
 
 
 @app.on_message(filters.command("covid") & ~filters.edited)

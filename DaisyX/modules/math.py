@@ -1,5 +1,5 @@
 # Written by Inukaasith for the Daisy project
-# This file is part of DaisyXBot (Telegram Bot)
+# This file is part of AfroziBot (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -17,7 +17,7 @@ import math
 
 import requests
 
-from DaisyX.decorator import register
+from Afrozi.decorator import register
 
 from .utils.disable import disableable_dec
 from .utils.message import get_args_str

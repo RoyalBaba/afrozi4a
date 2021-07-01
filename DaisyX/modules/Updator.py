@@ -6,16 +6,16 @@ import heroku3
 from git import Repo
 from git.exc import GitCommandError, InvalidGitRepositoryError, NoSuchPathError
 
-from DaisyX import OWNER_ID
-from DaisyX.config import get_str_key
-from DaisyX.services.events import register
-from DaisyX.services.telethon import tbot as update
+from Afrozi import OWNER_ID
+from Afrozi.config import get_str_key
+from Afrozi.services.events import register
+from Afrozi.services.telethon import tbot as update
 
 HEROKU_APP_NAME = get_str_key("HEROKU_APP_NAME", None)
 HEROKU_API_KEY = get_str_key("HEROKU_API_KEY", None)
 UPSTREAM_REPO_URL = get_str_key("UPSTREAM_REPO_URL", None)
 if not UPSTREAM_REPO_URL:
-    UPSTREAM_REPO_URL = "https://github.com/TeamDaisyX/DaisyX-v2.0"
+    UPSTREAM_REPO_URL = "https://github.com/TeamAfrozi/Afrozi-v2.0"
 
 requirements_path = path.join(
     path.dirname(path.dirname(path.dirname(__file__))), "requirements.txt"
@@ -107,7 +107,7 @@ async def upstream(ups):
     changelog = await gen_chlog(repo, f"HEAD..upstream/{ac_br}")
 
     if not changelog and not force_update:
-        await lol.edit("\nYour DaisyX  >>  **up-to-date**  \n")
+        await lol.edit("\nYour Afrozi  >>  **up-to-date**  \n")
         repo.__del__()
         return
 
@@ -184,6 +184,6 @@ async def upstream(ups):
             repo.git.reset("--hard", "FETCH_HEAD")
         await updateme_requirements()
         await lol.edit("`Successfully Updated!\n" "restarting......`")
-        args = [sys.executable, "-m", "DaisyX"]
+        args = [sys.executable, "-m", "Afrozi"]
         execle(sys.executable, *args, environ)
         return

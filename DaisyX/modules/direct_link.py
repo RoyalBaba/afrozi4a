@@ -1,4 +1,4 @@
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamAfrozi
 
 
 # This file is part of Daisy (Telegram Bot)
@@ -22,7 +22,7 @@ from random import choice
 import requests
 from bs4 import BeautifulSoup
 
-from DaisyX.decorator import register
+from Afrozi.decorator import register
 
 from .utils.disable import disableable_dec
 from .utils.message import get_arg

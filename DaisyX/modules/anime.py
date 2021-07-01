@@ -1,6 +1,6 @@
 # Copyright (C) 2018 - 2020 MrYacha. All rights reserved. Source code available under the AGPL.
 # Copyright (C) 2021 HitaloSama.
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamAfrozi
 # Copyright (C) 2020 Inuka Asith
 
 # This file is part of Daisy (Telegram Bot)
@@ -26,8 +26,8 @@ import requests
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram import filters
 
-from DaisyX.decorator import register
-from DaisyX.services.pyrogram import pbot
+from Afrozi.decorator import register
+from Afrozi.services.pyrogram import pbot
 
 from .utils.anime import (
     airing_query,

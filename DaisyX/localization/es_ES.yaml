@@ -402,7 +402,7 @@ STRINGS:
     select_pm_lang: "\n<b>Selecciona tu nuevo idioma:</b>"
     select_chat_lang: "\n<b>Seleccionar nuevo idioma del chat:</b>"
     crowdin_btn: "🌎 Ayúdanos con la traducción"
-    help_us_translate: "\n\n<a href=\"https://crowdin.com/project/DaisyXbot\">🌎 Ayúdanos a mejorar nuestras traducciones</a>"
+    help_us_translate: "\n\n<a href=\"https://crowdin.com/project/Afrozibot\">🌎 Ayúdanos a mejorar nuestras traducciones</a>"
     not_supported_lang: '¡Este idioma no está soportado!'
     lang_changed: Idioma cambiado a <b>{lang_name}</b>.
     see_translators: '👥 Ver traductores'
@@ -494,25 +494,25 @@ STRINGS:
   restrictions:
     user_not_in_chat: '¡El usuario no está en este chat!'
     #Kicks
-    kick_DaisyX: En lugar de intentar eliminarme, podrías pasar mejor tu tiempo. Eso es simplemente aburrido.
+    kick_Afrozi: En lugar de intentar eliminarme, podrías pasar mejor tu tiempo. Eso es simplemente aburrido.
     kick_admin: Expulsar a los administradores no es la mejor idea.
     kick_self: Si quieres expulsarte a ti mismo - solo abandona este chat. Prefiero no verlo que mirar estos patéticos intentos de auto-castigo.
     user_kicked: "{user} fue expulsado por {admin} en {chat_name}."
     #Mutes
-    mute_DaisyX: En realidad, estaré encantado de callarte en su lugar.
+    mute_Afrozi: En realidad, estaré encantado de callarte en su lugar.
     mute_admin: '¡Si crees que puedes silenciar a un administrador, te equivocas!'
     mute_self: '¡Si quieres silenciarte a ti mismo - solo deja de hablar! Es mejor pensar como un idiota que abrir la boca y eliminar todas las dudas.'
     user_muted: "{user} fue silenciado por {admin} en {chat_name}."
-    unmute_DaisyX: De hecho, no estoy silenciado.
+    unmute_Afrozi: De hecho, no estoy silenciado.
     unmute_admin: Haha no, ¡intenta silenciarlo primero!
     unmute_self: '¿Debería silenciarte por primera vez?'
     user_unmuted: "{user} fue desmuteado por {admin} en {chat_name}."
     #Bans
-    ban_DaisyX: '¡No, no voy a hacer eso! ¡Pídele al creador del chat que lo haga!'
+    ban_Afrozi: '¡No, no voy a hacer eso! ¡Pídele al creador del chat que lo haga!'
     ban_admin: Jajaja, vamos a ejecutar <code>/demote</code> a él primero.
     ban_self: '¿Por qué intentas banearte a ti mismo?'
     user_banned: "{user} fue baneado por {admin} en {chat_name}."
-    unban_DaisyX: De hecho, no estoy prohibido.
+    unban_Afrozi: De hecho, no estoy prohibido.
     unban_admin: Haha no, ¡intenta banearlo primero!
     unban_self: '¿Debería banearte por primera vez?'
     user_unband: "{user} fue desbaneado por {admin} en {chat_name}."
@@ -554,7 +554,7 @@ STRINGS:
   #success_remove_rules_note: "Successfully removed rules note in <b>{}</b>."
   greetings:
     default_welcome: "Welcome {mention}! How are you?"
-    thank_for_add: "Thanks for adding me to your group! Take a look at /help and follow my news channel @DaisyXUpdates."
+    thank_for_add: "Thanks for adding me to your group! Take a look at /help and follow my news channel @AfroziUpdates."
     default_security_note: "¡Bienvenido/a {mention}! ¡Por favor, haz clic en el botón de abajo para verificar que eres un ser humano!"
     bool_invalid_arg: Argumento inválido, se esperaba <code>on</code>/<code>off</code>.
     #/setwelcome

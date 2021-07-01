@@ -1,4 +1,4 @@
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamAfrozi
 
 
 # This file is part of Daisy (Telegram Bot)
@@ -20,17 +20,17 @@ from pymongo import MongoClient
 from telethon import *
 from telethon.tl import *
 
-from DaisyX import BOT_ID
-from DaisyX.config import get_str_key
-from DaisyX.services.events import register
-from DaisyX.services.telethon import tbot
+from Afrozi import BOT_ID
+from Afrozi.config import get_str_key
+from Afrozi.services.events import register
+from Afrozi.services.telethon import tbot
 
 MONGO_DB_URI = get_str_key("MONGO_URI", required=True)
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
-db = client["DaisyX"]
+db = client["Afrozi"]
 approved_users = db.approve
-dbb = client["DaisyX"]
+dbb = client["Afrozi"]
 poll_id = dbb.pollid
 
 

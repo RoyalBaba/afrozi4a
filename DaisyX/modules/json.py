@@ -1,4 +1,4 @@
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamAfrozi
 
 
 # This file is part of Daisy (Telegram Bot)
@@ -22,8 +22,8 @@ from telethon import types
 from telethon.tl import functions, types
 from telethon.tl.types import *
 
-from DaisyX.services.events import register
-from DaisyX.services.telethon import tbot as borg
+from Afrozi.services.events import register
+from Afrozi.services.telethon import tbot as borg
 
 
 async def is_register_admin(chat, user):

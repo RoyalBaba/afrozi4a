@@ -18,8 +18,8 @@ from apscheduler.jobstores.redis import RedisJobStore
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from pytz import utc
 
-from DaisyX.config import get_str_key
-from DaisyX.utils.logger import log
+from Afrozi.config import get_str_key
+from Afrozi.utils.logger import log
 
 DEFAULT = "default"
 

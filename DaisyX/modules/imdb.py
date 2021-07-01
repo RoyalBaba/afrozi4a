@@ -1,4 +1,4 @@
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamAfrozi
 
 
 # This file is part of Daisy (Telegram Bot)
@@ -24,8 +24,8 @@ import requests
 from telethon import types
 from telethon.tl import functions
 
-from DaisyX.services.events import register
-from DaisyX.services.telethon import tbot
+from Afrozi.services.events import register
+from Afrozi.services.telethon import tbot
 
 langi = "en"
 

@@ -1,5 +1,5 @@
 #    Copyright (C) @chsaiujwal 2020-2021
-#    Edited by TeamDaisyX
+#    Edited by TeamAfrozi
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as published by
 #    the Free Software Foundation, either version 3 of the License, or
@@ -19,8 +19,8 @@ from faker import Faker
 from faker.providers import internet
 from telethon import events
 
-from DaisyX.function.telethonbasics import is_admin
-from DaisyX.services.telethon import tbot
+from Afrozi.function.telethonbasics import is_admin
+from Afrozi.services.telethon import tbot
 
 
 @tbot.on(events.NewMessage(pattern="/fakegen$"))

@@ -1,4 +1,4 @@
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamAfrozi
 
 
 # This file is part of Daisy (Telegram Bot)
@@ -18,8 +18,8 @@
 
 from countryinfo import CountryInfo
 
-from DaisyX.services.events import register
-from DaisyX.services.telethon import tbot as borg
+from Afrozi.services.events import register
+from Afrozi.services.telethon import tbot as borg
 
 
 @register(pattern="^/country (.*)")

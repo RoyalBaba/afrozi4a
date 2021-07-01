@@ -19,9 +19,9 @@ from aiogram.dispatcher.filters import Filter
 from aiogram.types.callback_query import CallbackQuery
 from aiogram.utils.exceptions import BadRequest
 
-from DaisyX import BOT_ID, dp
-from DaisyX.modules.utils.language import get_strings
-from DaisyX.modules.utils.user_details import check_admin_rights
+from Afrozi import BOT_ID, dp
+from Afrozi.modules.utils.language import get_strings
+from Afrozi.modules.utils.user_details import check_admin_rights
 
 
 @dataclass

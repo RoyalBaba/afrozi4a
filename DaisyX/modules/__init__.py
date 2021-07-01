@@ -1,5 +1,5 @@
 # Copyright (C) 2018 - 2020 MrYacha. All rights reserved. Source code available under the AGPL.
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamAfrozi
 # Copyright (C) 2020 Inuka Asith
 
 # This file is part of Daisy (Telegram Bot)
@@ -20,14 +20,14 @@
 import os
 import sys
 
-from DaisyX.utils.logger import log
+from Afrozi.utils.logger import log
 
 LOADED_MODULES = []
 MOD_HELP = {}
 
 
 def list_all_modules() -> list:
-    modules_directory = "DaisyX/modules"
+    modules_directory = "Afrozi/modules"
 
     all_modules = []
     for module_name in os.listdir(modules_directory):

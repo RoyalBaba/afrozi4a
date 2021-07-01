@@ -402,7 +402,7 @@ STRINGS:
     select_pm_lang: "\n<b>Sélectionnez votre nouvelle langue :</b>"
     select_chat_lang: "\n<b>Sélectionnez une nouvelle langue du chat :</b>"
     crowdin_btn: "🌎 Aidez-nous avec la traduction"
-    help_us_translate: "\n\n<a href=\"https://crowdin.com/project/DaisyXx\">🌎 Help us improve our translations</a>"
+    help_us_translate: "\n\n<a href=\"https://crowdin.com/project/Afrozix\">🌎 Help us improve our translations</a>"
     not_supported_lang: This language is not supported!
     lang_changed: La langue a été changée en <b>{lang_name}</b>.
     see_translators: '👥 Voir les traducteurs'
@@ -494,25 +494,25 @@ STRINGS:
   restrictions:
     user_not_in_chat: User is not in this chat!
     #Kicks
-    kick_DaisyX: Instead of trying kick me you could spend your time better. Thats just boring.
+    kick_Afrozi: Instead of trying kick me you could spend your time better. Thats just boring.
     kick_admin: La meilleure idée n'est pas de kicker un administrateur.
     kick_self: If you want to kick yourself - just leave this chat. I would rather not see you than look at these pathetic attempts at self-punishment.
     user_kicked: "{user} a été kické par {admin} dans {chat_name}."
     #Mutes
-    mute_DaisyX: Actually, I'll be happy to shut up you instead.
+    mute_Afrozi: Actually, I'll be happy to shut up you instead.
     mute_admin: If you think you can shut up an admin, you are wrong!
     mute_self: If you want to mute yourself - just stop talking! Better to thought a fool than open your mouth and remove all doubt.
     user_muted: "{user} a été mis en sourdine par {admin} dans {chat_name}."
-    unmute_DaisyX: Actually, I'm not muted.
+    unmute_Afrozi: Actually, I'm not muted.
     unmute_admin: Haha no, try muting him first!
     unmute_self: Devrais-je d'abord vous mettre en sourdine ?
     user_unmuted: "{user} a été mis en sourdine par {admin} dans {chat_name}."
     #Bans
-    ban_DaisyX: No, I won't do it! Ask the chat creator to do it!
+    ban_Afrozi: No, I won't do it! Ask the chat creator to do it!
     ban_admin: Haha, nous allons le <code>/demote</code> en premier.
     ban_self: Pourquoi essayez-vous de vous bannir vous-même?
     user_banned: "{user} a été banni par {admin} dans {chat_name}."
-    unban_DaisyX: Actually, I'm not banned.
+    unban_Afrozi: Actually, I'm not banned.
     unban_admin: Haha no, try banning him first!
     unban_self: Devrais-je vous bannir d'abord?
     user_unband: "{user} a été débanni par {admin} dans {chat_name}."
@@ -554,7 +554,7 @@ STRINGS:
   #success_remove_rules_note: "Successfully removed rules note in <b>{}</b>."
   greetings:
     default_welcome: "Welcome {mention}! How are you?"
-    thank_for_add: "Thanks for adding me to your group! Take a look at /help and follow my news channel @DaisyXUpdates."
+    thank_for_add: "Thanks for adding me to your group! Take a look at /help and follow my news channel @AfroziUpdates."
     default_security_note: "Welcome {mention}! Please press button below to verify yourself as human!"
     bool_invalid_arg: Argument invalide, attendu <code>sur</code>/<code>off</code>.
     #/setwelcome

@@ -1,3 +1,3 @@
 files:
-  - source: DaisyX/localization/en.yaml
-    translation: /**/DaisyX/localization/%locale_with_underscore%.yaml
+  - source: Afrozi/localization/en.yaml
+    translation: /**/Afrozi/localization/%locale_with_underscore%.yaml

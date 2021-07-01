@@ -1,4 +1,4 @@
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamAfrozi
 
 
 # This file is part of Daisy (Telegram Bot)
@@ -37,12 +37,12 @@ from telethon.tl.types import (
     MessageMediaPhoto,
 )
 
-from DaisyX import bot
-from DaisyX.decorator import register
-from DaisyX.services.events import register as Daisy
-from DaisyX.services.pyrogram import pbot
-from DaisyX.services.telethon import tbot
-from DaisyX.services.telethonuserbot import ubot
+from Afrozi import bot
+from Afrozi.decorator import register
+from Afrozi.services.events import register as Daisy
+from Afrozi.services.pyrogram import pbot
+from Afrozi.services.telethon import tbot
+from Afrozi.services.telethonuserbot import ubot
 
 from .utils.disable import disableable_dec
 from .utils.language import get_strings_dec
@@ -197,7 +197,7 @@ def find_instance(items, class_or_tuple):
     return None
 
 
-DEFAULTUSER = "DaisyX"
+DEFAULTUSER = "Afrozi"
 FILLED_UP_DADDY = "Invalid pack selected."
 
 
@@ -227,7 +227,7 @@ async def _(event):
     userid = event.sender_id
     first_name = user.first_name
     packname = f"{first_name}'s Sticker Vol.{pack}"
-    packshortname = f"DaisyX_stickers_{userid}"
+    packshortname = f"Afrozi_stickers_{userid}"
     kanga = await event.reply("Hello, This Sticker Looks Noice. Mind if Daisy steal it")
     is_a_s = is_it_animated_sticker(reply_message)
     file_ext_ns_ion = "Stickers.png"
@@ -237,7 +237,7 @@ async def _(event):
         file_ext_ns_ion = "AnimatedSticker.tgs"
         uploaded_sticker = await ubot.upload_file(file, file_name=file_ext_ns_ion)
         packname = f"{first_name}'s Animated Sticker Vol.{pack}"
-        packshortname = f"DaisyX_animated_{userid}"
+        packshortname = f"Afrozi_animated_{userid}"
     elif not is_message_image(reply_message):
         await kanga.edit("Oh no.. This Message type is invalid")
         return

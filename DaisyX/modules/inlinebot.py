@@ -1,4 +1,4 @@
-# Copyright (C) 2021 TheHamkerCat & TeamDaisyX
+# Copyright (C) 2021 TheHamkerCat & TeamAfrozi
 
 # Ported some parts From WilliamButcherBot.
 # Pokedex Inline Credit Red-Aura[Madepranav]
@@ -33,10 +33,10 @@ from search_engine_parser import GoogleSearch
 from tswift import Song
 from youtubesearchpython import VideosSearch
 
-from DaisyX.config import get_str_key
-from DaisyX.function.inlinehelper import *
-from DaisyX.function.pluginhelpers import fetch, json_prettify
-from DaisyX.services.pyrogram import pbot as app
+from Afrozi.config import get_str_key
+from Afrozi.function.inlinehelper import *
+from Afrozi.function.pluginhelpers import fetch, json_prettify
+from Afrozi.services.pyrogram import pbot as app
 
 OPENWEATHERMAP_ID = get_str_key("OPENWEATHERMAP_ID", "")
 TIME_API_KEY = get_str_key("TIME_API_KEY", required=False)
@@ -71,7 +71,7 @@ __help__ = """
 <i> I'm more efficient when added as group admin. By the way these commands can be used by anyone in a group via inline.</i>
 
 <b>Syntax</b>
-   @DaisyXBot [command] [query]
+   @AfroziBot [command] [query]
 
 <b> Commands Available</b>
 - alive - Check Bot's Stats.
@@ -115,7 +115,7 @@ __HELP__ = """
 `I'm more efficient when added as group admin. By the way these commands can be used by anyone in a group via inline.`
 
    >> Syntax <<
-@DaisyXBot [command] [query]
+@AfroziBot [command] [query]
 
    >> Commands Available <<
 - **alive** - __Check Bot's Stats.__

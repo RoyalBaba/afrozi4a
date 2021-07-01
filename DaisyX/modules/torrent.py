@@ -1,4 +1,4 @@
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamAfrozi
 
 
 # This file is part of Daisy (Telegram Bot)
@@ -22,8 +22,8 @@ from telethon import events
 from telethon.tl import functions, types
 from telethon.tl.types import *
 
-from DaisyX.services.mongo import mongodb as db
-from DaisyX.services.telethon import tbot
+from Afrozi.services.mongo import mongodb as db
+from Afrozi.services.telethon import tbot
 
 approved_users = db.approve
 
@@ -332,7 +332,7 @@ async def torrentstop(event):
     await tbot.edit_message(
         chatid,
         msgid,
-        "Thanks for using.\n❤️ from [Daisy X](t.me/DaisyXBot) !",
+        "Thanks for using.\n❤️ from [Daisy X](t.me/AfroziBot) !",
         link_preview=False,
     )
 

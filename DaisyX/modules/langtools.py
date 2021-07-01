@@ -1,4 +1,4 @@
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamAfrozi
 
 
 # This file is part of Daisy (Telegram Bot)
@@ -24,7 +24,7 @@ from PyDictionary import PyDictionary
 from telethon import *
 from telethon.tl.types import *
 
-from DaisyX.services.events import register
+from Afrozi.services.events import register
 
 API_KEY = "6ae0c3a0-afdc-4532-a810-82ded0054236"
 URL = "http://services.gingersoftware.com/Ginger/correct/json/GingerTheText"

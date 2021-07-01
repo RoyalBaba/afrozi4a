@@ -15,7 +15,7 @@
 
 import subprocess
 
-from DaisyX.utils.logger import log
+from Afrozi.utils.logger import log
 
 
 def term(cmd):

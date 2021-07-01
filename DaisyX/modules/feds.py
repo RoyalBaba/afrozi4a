@@ -1,5 +1,5 @@
 # Copyright (C) 2018 - 2020 MrYacha. All rights reserved. Source code available under the AGPL.
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamAfrozi
 # Copyright (C) 2020 Inuka Asith
 
 # This file is part of Daisy (Telegram Bot)
@@ -45,10 +45,10 @@ from aiogram.utils.exceptions import (
 from babel.dates import format_timedelta
 from pymongo import DeleteMany, InsertOne
 
-from DaisyX import BOT_ID, OPERATORS, OWNER_ID, bot, decorator
-from DaisyX.services.mongo import db
-from DaisyX.services.redis import redis
-from DaisyX.services.telethon import tbot
+from Afrozi import BOT_ID, OPERATORS, OWNER_ID, bot, decorator
+from Afrozi.services.mongo import db
+from Afrozi.services.redis import redis
+from Afrozi.services.telethon import tbot
 
 from ..utils.cached import cached
 from .utils.connections import chat_connection, get_connected_chat

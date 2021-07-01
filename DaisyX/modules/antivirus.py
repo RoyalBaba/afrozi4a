@@ -1,4 +1,4 @@
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamAfrozi
 
 
 # This file is part of Daisy (Telegram Bot)
@@ -23,9 +23,9 @@ import cloudmersive_virus_api_client
 from telethon.tl import functions, types
 from telethon.tl.types import DocumentAttributeFilename, MessageMediaDocument
 
-from DaisyX.config import get_str_key
-from DaisyX.services.events import register
-from DaisyX.services.telethon import tbot
+from Afrozi.config import get_str_key
+from Afrozi.services.events import register
+from Afrozi.services.telethon import tbot
 
 
 async def is_register_admin(chat, user):

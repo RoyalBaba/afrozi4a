@@ -17,8 +17,8 @@ import sys
 
 import redis as redis_lib
 
-from DaisyX import log
-from DaisyX.config import get_str_key
+from Afrozi import log
+from Afrozi.config import get_str_key
 
 # Init Redis
 redis = redis_lib.Redis(

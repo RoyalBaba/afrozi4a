@@ -1,4 +1,4 @@
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamAfrozi
 
 
 # This file is part of Daisy (Telegram Bot)
@@ -21,15 +21,15 @@ import asyncio
 from pyrogram import filters
 from pyrogram.errors import RPCError
 
-from DaisyX import BOT_ID
-from DaisyX.db.mongo_helpers.lockurl import add_chat, get_session, remove_chat
-from DaisyX.function.pluginhelpers import (
+from Afrozi import BOT_ID
+from Afrozi.db.mongo_helpers.lockurl import add_chat, get_session, remove_chat
+from Afrozi.function.pluginhelpers import (
     admins_only,
     edit_or_reply,
     get_url,
     member_permissions,
 )
-from DaisyX.services.pyrogram import pbot
+from Afrozi.services.pyrogram import pbot
 
 
 @pbot.on_message(

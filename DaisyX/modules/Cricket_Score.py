@@ -1,5 +1,5 @@
 #    Copyright (C) @chsaiujwal 2020-2021
-#    Edited by TeamDaisyX
+#    Edited by TeamAfrozi
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as published by
 #    the Free Software Foundation, either version 3 of the License, or
@@ -19,7 +19,7 @@ from bs4 import BeautifulSoup
 from telethon import events
 from telethon.tl import functions, types
 
-from DaisyX.services.telethon import tbot
+from Afrozi.services.telethon import tbot
 
 
 async def is_register_admin(chat, user):

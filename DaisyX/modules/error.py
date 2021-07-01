@@ -1,5 +1,5 @@
 # Copyright (C) 2018 - 2020 MrYacha. All rights reserved. Source code available under the AGPL.
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamAfrozi
 # Copyright (C) 2020 Inuka Asith
 
 # This file is part of Daisy (Telegram Bot)
@@ -23,9 +23,9 @@ import sys
 from aiogram.types import Update
 from redis.exceptions import RedisError
 
-from DaisyX import OWNER_ID, bot, dp
-from DaisyX.services.redis import redis
-from DaisyX.utils.logger import log
+from Afrozi import OWNER_ID, bot, dp
+from Afrozi.services.redis import redis
+from Afrozi.utils.logger import log
 
 SENT = []
 

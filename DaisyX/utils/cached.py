@@ -19,8 +19,8 @@ import functools
 import pickle
 from typing import Optional, Union
 
-from DaisyX.services.redis import bredis
-from DaisyX.utils.logger import log
+from Afrozi.services.redis import bredis
+from Afrozi.utils.logger import log
 
 
 async def set_value(key, value, ttl):

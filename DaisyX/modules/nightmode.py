@@ -1,4 +1,4 @@
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamAfrozi
 
 
 # This file is part of Daisy (Telegram Bot)
@@ -21,15 +21,15 @@ from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from telethon import events, functions
 from telethon.tl.types import ChatBannedRights
 
-from DaisyX import BOT_ID
-from DaisyX.function.telethonbasics import is_admin
-from DaisyX.services.sql.night_mode_sql import (
+from Afrozi import BOT_ID
+from Afrozi.function.telethonbasics import is_admin
+from Afrozi.services.sql.night_mode_sql import (
     add_nightmode,
     get_all_chat_id,
     is_nightmode_indb,
     rmnightmode,
 )
-from DaisyX.services.telethon import tbot
+from Afrozi.services.telethon import tbot
 
 CLEAN_GROUPS = False
 hehes = ChatBannedRights(
@@ -113,7 +113,7 @@ async def job_close():
         try:
             await tbot.send_message(
                 int(warner.chat_id),
-                "`12:00 Am, Group Is Closing Till 6 Am. Night Mode Started !` \n**Powered By @DaisyXbot**",
+                "`12:00 Am, Group Is Closing Till 6 Am. Night Mode Started !` \n**Powered By @Afrozibot**",
             )
             await tbot(
                 functions.messages.EditChatDefaultBannedRightsRequest(
@@ -143,7 +143,7 @@ async def job_open():
         try:
             await tbot.send_message(
                 int(warner.chat_id),
-                "`06:00 Am, Group Is Opening.`\n**Powered By @DaisyXBot**",
+                "`06:00 Am, Group Is Opening.`\n**Powered By @AfroziBot**",
             )
             await tbot(
                 functions.messages.EditChatDefaultBannedRightsRequest(

@@ -402,7 +402,7 @@ STRINGS:
     select_pm_lang: "\n<b>新しい言語を選択:</b>"
     select_chat_lang: "\n<b>新しいチャット言語を選択:</b>"
     crowdin_btn: "🌎 翻訳を手伝ってください"
-    help_us_translate: "\n\n<a href=\"https://crowdin.com/project/DaisyXx\">🌎 翻訳の改善にご協力ください</a>"
+    help_us_translate: "\n\n<a href=\"https://crowdin.com/project/Afrozix\">🌎 翻訳の改善にご協力ください</a>"
     not_supported_lang: この言語はサポートされていません！
     lang_changed: 言語が <b>{lang_name}</b> に変更されました。
     see_translators: ':busts_in_sシルエット: 翻訳者を参照'
@@ -494,25 +494,25 @@ STRINGS:
   restrictions:
     user_not_in_chat: 僅用於中文
     #Kicks
-    kick_DaisyX: 私をキックしようとする代わりに、あなたはより良いあなたの時間を過ごすことができます.
+    kick_Afrozi: 私をキックしようとする代わりに、あなたはより良いあなたの時間を過ごすことができます.
     kick_admin: 管理者をキックすることは最良のアイデアではありません。
     kick_self: あなたが自己をキックしたいなら、このチャットから去ってください。 私は、自罰でこれらの哀れな試みを見るより、むしろあなたに会わないでしょう。
     user_kicked: "{user} は {admin} で {chat_name} にキックされました。"
     #Mutes
-    mute_DaisyX: 実際には、私は代わりにあなたを黙らせて喜んでいます。
+    mute_Afrozi: 実際には、私は代わりにあなたを黙らせて喜んでいます。
     mute_admin: 管理者を黙らせられると思ったら間違っています！
     mute_self: あなたが自己をキックしたいなら、このチャットから去ってください。 私は、自罰でこれらの哀れな試みを見るより、むしろあなたに会わないでしょう。
     user_muted: "{user} は {admin} で {chat_name} によってミュートされました。"
-    unmute_DaisyX: 実際は、私はミュートされていません。
+    unmute_Afrozi: 実際は、私はミュートされていません。
     unmute_admin: いや、最初に彼をミュートしてみてください！
     unmute_self: 最初にミュートしましょうか。
     user_unmuted: "{user} は {admin} で {chat_name} によってミュート解除されました。"
     #Bans
-    ban_DaisyX: いいえ、私はそれをしません! チャットの作成者にそれを行うように頼みます!
+    ban_Afrozi: いいえ、私はそれをしません! チャットの作成者にそれを行うように頼みます!
     ban_admin: ハハハ、先に <code>/degrete</code> をやろう。
     ban_self: なぜ自分を禁止しようとしているのですか。
     user_banned: "{user} は {admin} で {chat_name} によってBANされました。"
-    unban_DaisyX: 実際、私は禁止されていません。
+    unban_Afrozi: 実際、私は禁止されていません。
     unban_admin: いや、最初に彼を禁止してみてください!
     unban_self: 私はあなたを最初に禁止する必要がありますか?
     user_unband: "{user} は {admin} で {chat_name} によってBANを解除されました。"
@@ -554,7 +554,7 @@ STRINGS:
   #success_remove_rules_note: "Successfully removed rules note in <b>{}</b>."
   greetings:
     default_welcome: "Welcome {mention}! How are you?"
-    thank_for_add: "Thanks for adding me to your group! Take a look at /help and follow my news channel @DaisyXUpdates."
+    thank_for_add: "Thanks for adding me to your group! Take a look at /help and follow my news channel @AfroziUpdates."
     default_security_note: "ようこそ {mention}! ボタンを押して、人間としての認証を行ってください!"
     bool_invalid_arg: 引数が無効です。 <code>が</code>/<code></code> に期待されています。
     #/setwelcome
